@@ -17,10 +17,10 @@ the numbers in the array and a reporting of the resulting sum and product.
 
 function_practice_problem_4
 This function named sumArray() takes in an array of numbers as a single argument
-and then returns the sum of those numbers.  The function console.tables the
-array and console.logs the resulting sum.
+and then returns the sum of those numbers.  The function applies console.table
+to the array and console.log to the resulting sum.
 
 function_practice_problem_5
 This function called multiplyArray() takes in an array of numbers as a single
 argument and returns the product of those numbers.  It prints the array and the
-product .
+product.
