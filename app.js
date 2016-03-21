@@ -33,3 +33,14 @@ function sumArray(arrayOfNumbers) {
   console.table(arrayOfNumbers);
   console.log (arrayOfNumbers + ' was passed in as an array of numbers, and ' + currentSumOfArrayNumbers + ' is their sum.');
 }
+
+/* Problem 5  multiplyArray() takes in array of numbers as a single argument and returns the product of those numbers. */
+function multiplyArray(arrayOfNumbers) {
+    /* It is necessary to set the value of the variable below to 1 and not 0; if 0 this multiplication function would always return 0.*/
+  var currentProductOfArrayNumbers = 1;
+  for (var i = 0; i < arrayOfNumbers.length; i++){
+    currentProductOfArrayNumbers *= arrayOfNumbers[i];
+  }
+  console.table(arrayOfNumbers);
+  console.log('The numbers ' + arrayOfNumbers + ' have a product of ' + currentProductOfArrayNumbers + '.');
+}
